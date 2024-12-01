@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>BestTrip</title>
+</head>
+
+<body>
+    <div class="modal-wrapper">
+        <div class="login-modal">
+            <div class="close-btn-wrapper">
+                <span class="close-btn bi bi-x-lg"></span>
+            </div>
+            <form class="login-form">
+                <div class="login-form-row">
+                    <label for="user">Username: </label>
+                    <input class="login-input" type="text" id="user" />
+                </div>
+                <div class="login-form-row">
+                    <label for="pass">Password: </label>
+                    <input class="login-input" type="password" id="pass" />
+                </div>
+                <div class="login-form-row">
+                    <input class="login-btn" type="submit" value="Login" />
+                </div>
+            </form>
+        </div>
+        <div class="backdrop"></div>
+    </div>
+    <header class="header">
+        <nav class="navigation-bar hide">
+            <div class="container-lg">
+                <div class="row justify-content-between">
+                    <div class="col-auto d-flex align-items-center">
+                        <h1 class="logo h3 fw-bold text-white">
+                            Best<span class="color-sec">Trip</span>
+                        </h1>
+                    </div>
+                    <div class="col-auto d-sm-none">
+                        <span class="nav-toggler bi bi-list"></span>
+                    </div>
+                    <div class="col-12 col-sm d-flex justify-content-end align-items-center">
+                        <ul class="nav-list text-light">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"><i
+                                        class="d-none d-md-inline bi bi-house-fill pe-1"></i>Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./about.html" class="nav-link"><i
+                                        class="d-none d-md-inline bi bi-info-circle-fill pe-1"></i>About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./service.html" class="nav-link"><i
+                                        class="d-none d-md-inline bi bi-check-square-fill pe-1"></i>Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact.html" class="nav-link"><i
+                                        class="d-none d-md-inline bi bi-telephone-fill pe-1"></i>Contact</a>
+                            </li>
+                            <li class="nav-item ps-3 login">
+                                <a class="nav-link"><i
+                                        class="d-none d-md-inline bi bi-box-arrow-in-right pe-1"></i>Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="intro">
+            <div class="container-md">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-10 col-sm-8 col-md-6">
+                        <h2 id="intro-header">
+                            <p class="intro-header__welcome">Welcome!!</p>
+                            <p class="intro-header__name" class="lead mt-1 d-block">I'm Mojtaba Fallah</p>
+                        </h2>
+                        <p class="intro-text">
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Dolorum ratione reiciendis
+                            sit, possimus accusamus inventore nihil
+                            quibusdam eos repudiandae quae! Facilis,
+                            similique. Vitae laborum dignissimos
+                            perspiciatis minima excepturi earum ipsam?
+                        </p>
+                        <button class="intro-btn btn btn-primary text-light fw-bold sec-bg py-2 px-3">
+                            Let's Go
+                        </button>
+                    </div>
+                    <div class="d-none d-md-block col-md-6">
+                        <img loading="lazy" class="intro-image img-fluid" src="./images/camp.png"
+                            alt="camp illustration" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="every">
+            <div class="container-md">
+                <h2 class="section-header mb-4">For Everywhere</h2>
+                <div class="row d-flex justify-content-center justify-content-md-start">
+                    <div class="col-10 col-md-6 col-lg-4">
+                        <a href="#">
+                            <figure class="place-card">
+                                <img class="img-fluid" src="./images/montain.jpg" alt="montain" />
+                                <figcaption>
+                                    <h3>Montain</h3>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-6 col-lg-4">
+                        <a href="#">
+                            <figure class="place-card">
+                                <img class="img-fluid" src="./images/forest.jpg" alt="forest" />
+                                <figcaption>
+                                    <h3>Forest</h3>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-6 col-lg-4">
+                        <a href="#">
+                            <figure class="place-card">
+                                <img class="img-fluid" src="./images/desert.jpg" alt="desert" />
+                                <figcaption>
+                                    <h3>Desert</h3>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reserve">
+            <div class="container-md">
+                <article
+                    class="post-card post-card--initial row d-flex justify-content-center align-items-center gx-5 mb-5">
+                    <div class="post-card__side col-10 col-md-6">
+                        <h2>Reserve Now</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Aspernatur commodi,
+                            exercitationem velit corporis ea quidem
+                            doloremque eius quo ipsa libero.
+                        </p>
+                    </div>
+                    <div class="post-card__side col-10 col-md-4">
+                        <img loading="lazy" class="img-fluid rounded" src="./images/reservation.jpg"
+                            alt="reservation" />
+                    </div>
+                </article>
+                <article
+                    class="post-card post-card--initial row d-flex justify-content-center align-items-center gx-5 mb-5">
+                    <div class="post-card__side col-10 col-md-6">
+                        <h2>Your Suggestion</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Aspernatur commodi,
+                            exercitationem velit corporis ea quidem
+                            doloremque eius quo ipsa libero.
+                        </p>
+                    </div>
+                    <div class="post-card__side col-10 col-md-4">
+                        <img loading="lazy" class="img-fluid rounded" src="./images/suggestion.jpg" alt="suggestion" />
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container-lg">
+            <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                    <ul class="social-list">
+                        <li class="social-item">
+                            <a class="bi bi-instagram" href="#"></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="bi bi-twitter" href="#"></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="bi bi-linkedin" href="#"></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="bi bi-dribbble" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

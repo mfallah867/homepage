@@ -1,0 +1,39 @@
+## HTML Tags
+**Use at least ten (10) distinct HTML tags besides `<html>`, `<head>`, `<body>`, and `<title>`. Using some tags (e.g., `<p>`) multiple times still counts as just one (1) of those ten!**
+
+### List of HTML Tags Used
+1. **`<form>`**: Used for creating the login form.
+2. **`<label>`**: Used for labeling form inputs.
+3. **`<input>`**: Used to get input from the user.
+4. **`<header>`**: Used for the header of the page.
+5. **`<h1>`**: Used as the main heading of the page.
+6. **`<ul>`**: Used for creating the navigation menu.
+7. **`<a>`**: Used to link to other pages like about.html.
+8. **`<main>`**: Used for the main content of the page.
+9. **`<section>`**: Used for sectioning the page, for example, the introduction section.
+10. **`<button>`**: Used to trigger actions, such as going to the reservation page.
+11. **`<img>`**: Used to insert images into the page.
+12. **`<figure>`**: Used for wrapping images that have captions, for example, place cards.
+13. **`<article>`**: Used for post cards.
+14. **`<footer>`**: Used for the footer of the site.
+
+## CSS Properties
+**Use at least five (5) distinct CSS properties.**
+
+### List of CSS Properties Used
+1. **`padding`**: Used to create space within elements.
+2. **`margin`**: Used to create space around elements.
+3. **`transform`**: Used to apply 2D or 3D transformations to elements, such as moving or scaling them.
+4. **`opacity`**: Used to control the transparency of elements.
+5. **`overflow`**: Used to handle content that overflows an element’s box.
+6. **`cursor`**: Used to define the type of cursor to be displayed when pointing on an element.
+7. **`box-sizing`**: Used to control the box model (e.g., to include padding and border in the element’s total width and height).
+8. **`display`**: Used to define how an element is displayed on the page.
+9. **`flex-direction`**: Used to define the direction in which the flex container's children are placed.
+10. **`position`**: Used to specify the type of positioning method used for an element.
+11. **`width`**: Used to set the width of an element.
+
+## JavaScript and Bootstrap
+**JavaScript**: Used to create the modal for logging in users, and to add or remove the `post-card--initial` class to create an animation on initial page load.
+
+**Bootstrap**: Used for responsive design and pre-built components like the navigation bar, buttons, and form elements.
